@@ -100,10 +100,6 @@
         <fields>WebsiteUrl__c</fields>
         <relatedList>DealerBrands__c.Brand__c</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>DealerBrandMake__c.Brand__c</relatedList>
-    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
