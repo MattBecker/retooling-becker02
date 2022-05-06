@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EquityClass__c</fullName>
+    <externalId>false</externalId>
+    <label>Equity Class</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incomplete Information</fullName>
+                <default>false</default>
+                <label>Incomplete Information</label>
+            </value>
+            <value>
+                <fullName>Expired Soft Credit</fullName>
+                <default>false</default>
+                <label>Expired Soft Credit</label>
+            </value>
+            <value>
+                <fullName>Service Not Sold</fullName>
+                <default>false</default>
+                <label>Service Not Sold</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Pending Appraisal</fullName>
+                <default>false</default>
+                <label>Pending Appraisal</label>
+            </value>
+            <value>
+                <fullName>New to New</fullName>
+                <default>false</default>
+                <label>New to New</label>
+            </value>
+            <value>
+                <fullName>Class 2</fullName>
+                <default>false</default>
+                <label>Class 2</label>
+            </value>
+            <value>
+                <fullName>Used to New</fullName>
+                <default>false</default>
+                <label>Used to New</label>
+            </value>
+            <value>
+                <fullName>Used to Used</fullName>
+                <default>false</default>
+                <label>Used to Used</label>
+            </value>
+            <value>
+                <fullName>Lease</fullName>
+                <default>false</default>
+                <label>Lease</label>
+            </value>
+            <value>
+                <fullName>Retail Balloon</fullName>
+                <default>false</default>
+                <label>Retail Balloon</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Less Marketable</fullName>
+                <default>false</default>
+                <label>Less Marketable</label>
+            </value>
+            <value>
+                <fullName>Traded</fullName>
+                <default>false</default>
+                <label>Traded</label>
+            </value>
+            <value>
+                <fullName>Full Term Lease</fullName>
+                <default>false</default>
+                <label>Full Term Lease</label>
+            </value>
+            <value>
+                <fullName>Full Term Balloon</fullName>
+                <default>false</default>
+                <label>Full Term Balloon</label>
+            </value>
+            <value>
+                <fullName>Outside Finance</fullName>
+                <default>false</default>
+                <label>Outside Finance</label>
+            </value>
+            <value>
+                <fullName>Near Term Lease</fullName>
+                <default>false</default>
+                <label>Near Term Lease</label>
+            </value>
+            <value>
+                <fullName>Near Term Balloon</fullName>
+                <default>false</default>
+                <label>Near Term Balloon</label>
+            </value>
+            <value>
+                <fullName>Retail to Lease</fullName>
+                <default>false</default>
+                <label>Retail to Lease</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

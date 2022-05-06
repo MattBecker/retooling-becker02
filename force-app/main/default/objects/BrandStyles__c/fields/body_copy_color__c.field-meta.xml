@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>body_copy_color__c</fullName>
+    <description>color</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Font color of the text for a body copy</inlineHelpText>
+    <label>Body Copy Color</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

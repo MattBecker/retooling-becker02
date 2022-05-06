@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketingFriendlyFromFormatId__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>1=Sender Name at Client Name
+2=Client Name
+3=Sender Name</inlineHelpText>
+    <label>Marketing Friendly From Format Id</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sender Name at Client Name</fullName>
+                <default>false</default>
+                <label>Sender Name at Client Name</label>
+            </value>
+            <value>
+                <fullName>Client Name</fullName>
+                <default>false</default>
+                <label>Client Name</label>
+            </value>
+            <value>
+                <fullName>Sender Name</fullName>
+                <default>false</default>
+                <label>Sender Name</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

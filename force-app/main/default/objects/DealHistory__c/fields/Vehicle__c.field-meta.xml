@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Vehicle sold or leased in this deal</inlineHelpText>
+    <label>Vehicle</label>
+    <referenceTo>Vehicles__c</referenceTo>
+    <relationshipLabel>Deal History</relationshipLabel>
+    <relationshipName>Deal_History</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

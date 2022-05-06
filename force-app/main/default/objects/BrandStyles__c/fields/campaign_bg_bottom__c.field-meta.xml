@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>campaign_bg_bottom__c</fullName>
+    <description>background-color</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Background color of the body, also is the background color of the sales event and warranty logo blocks</inlineHelpText>
+    <label>Campaign Bottom Background Color</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

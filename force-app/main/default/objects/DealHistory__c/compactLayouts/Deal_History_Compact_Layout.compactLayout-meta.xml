@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_History_Compact_Layout</fullName>
+    <fields>Person__c</fields>
+    <fields>Dealer__c</fields>
+    <fields>Owned_Vehicle__c</fields>
+    <fields>Vehicle__c</fields>
+    <fields>DealDate__c</fields>
+    <fields>NewUsed__c</fields>
+    <fields>RetailLease__c</fields>
+    <label>Deal History Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpCodeTypes__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>List of work performed</inlineHelpText>
+    <label>Op Code Types</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>Recall</fullName>
+                <default>false</default>
+                <label>Recall</label>
+            </value>
+            <value>
+                <fullName>Coupon</fullName>
+                <default>false</default>
+                <label>Coupon</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>State Inspection</fullName>
+                <default>false</default>
+                <label>State Inspection</label>
+            </value>
+            <value>
+                <fullName>Red Tires</fullName>
+                <default>false</default>
+                <label>Red Tires</label>
+            </value>
+            <value>
+                <fullName>Yellow Tires</fullName>
+                <default>false</default>
+                <label>Yellow Tires</label>
+            </value>
+            <value>
+                <fullName>Green Tires</fullName>
+                <default>false</default>
+                <label>Green Tires</label>
+            </value>
+            <value>
+                <fullName>Red Brakes</fullName>
+                <default>false</default>
+                <label>Red Brakes</label>
+            </value>
+            <value>
+                <fullName>Yellow Brakes</fullName>
+                <default>false</default>
+                <label>Yellow Brakes</label>
+            </value>
+            <value>
+                <fullName>Green Brakes</fullName>
+                <default>false</default>
+                <label>Green Brakes</label>
+            </value>
+            <value>
+                <fullName>Red Battery</fullName>
+                <default>false</default>
+                <label>Red Battery</label>
+            </value>
+            <value>
+                <fullName>Yellow Battery</fullName>
+                <default>false</default>
+                <label>Yellow Battery</label>
+            </value>
+            <value>
+                <fullName>Green Battery</fullName>
+                <default>false</default>
+                <label>Green Battery</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

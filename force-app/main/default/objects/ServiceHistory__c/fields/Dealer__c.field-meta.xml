@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Dealer where the service was performed</inlineHelpText>
+    <label>Dealer</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Service History</relationshipLabel>
+    <relationshipName>Service_History</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

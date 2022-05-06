@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerEventType__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of event that occurred</inlineHelpText>
+    <label>Customer Event Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generic Event</fullName>
+                <default>false</default>
+                <label>Generic Event</label>
+            </value>
+            <value>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+                <label>Campaign</label>
+            </value>
+            <value>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+                <label>Phone Call</label>
+            </value>
+            <value>
+                <fullName>Sent Email</fullName>
+                <default>false</default>
+                <label>Sent Email</label>
+            </value>
+            <value>
+                <fullName>Mailed Letter</fullName>
+                <default>false</default>
+                <label>Mailed Letter</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Appointment</fullName>
+                <default>false</default>
+                <label>Appointment</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Note Saved</fullName>
+                <default>false</default>
+                <label>Note Saved</label>
+            </value>
+            <value>
+                <fullName>Text Message</fullName>
+                <default>false</default>
+                <label>Text Message</label>
+            </value>
+            <value>
+                <fullName>Record Inquiry</fullName>
+                <default>false</default>
+                <label>Record Inquiry</label>
+            </value>
+            <value>
+                <fullName>Conquest View</fullName>
+                <default>false</default>
+                <label>Conquest View</label>
+            </value>
+            <value>
+                <fullName>Email Open</fullName>
+                <default>false</default>
+                <label>Email Open</label>
+            </value>
+            <value>
+                <fullName>Email Unsubscribe</fullName>
+                <default>false</default>
+                <label>Email Unsubscribe</label>
+            </value>
+            <value>
+                <fullName>Email Bounce</fullName>
+                <default>false</default>
+                <label>Email Bounce</label>
+            </value>
+            <value>
+                <fullName>Presentation Sheet</fullName>
+                <default>false</default>
+                <label>Presentation Sheet</label>
+            </value>
+            <value>
+                <fullName>Lead Sheet</fullName>
+                <default>false</default>
+                <label>Lead Sheet</label>
+            </value>
+            <value>
+                <fullName>Email Click</fullName>
+                <default>false</default>
+                <label>Email Click</label>
+            </value>
+            <value>
+                <fullName>Landing Page Session Start</fullName>
+                <default>false</default>
+                <label>Landing Page Session Start</label>
+            </value>
+            <value>
+                <fullName>Landing Page Click</fullName>
+                <default>false</default>
+                <label>Landing Page Click</label>
+            </value>
+            <value>
+                <fullName>Landing Page Lead</fullName>
+                <default>false</default>
+                <label>Landing Page Lead</label>
+            </value>
+            <value>
+                <fullName>Landing Page Session End</fullName>
+                <default>false</default>
+                <label>Landing Page Session End</label>
+            </value>
+            <value>
+                <fullName>Phone Number Unsubscribe</fullName>
+                <default>false</default>
+                <label>Phone Number Unsubscribe</label>
+            </value>
+            <value>
+                <fullName>Test Drive</fullName>
+                <default>false</default>
+                <label>Test Drive</label>
+            </value>
+            <value>
+                <fullName>Follow-up Call</fullName>
+                <default>false</default>
+                <label>Follow-up Call</label>
+            </value>
+            <value>
+                <fullName>Sales Appointment</fullName>
+                <default>false</default>
+                <label>Sales Appointment</label>
+            </value>
+            <value>
+                <fullName>In Person</fullName>
+                <default>false</default>
+                <label>In Person</label>
+            </value>
+            <value>
+                <fullName>Bdc Activator Call</fullName>
+                <default>false</default>
+                <label>Bdc Activator Call</label>
+            </value>
+            <value>
+                <fullName>Undeliverable Email</fullName>
+                <default>false</default>
+                <label>Undeliverable Email</label>
+            </value>
+            <value>
+                <fullName>Remove From All Marketing</fullName>
+                <default>false</default>
+                <label>Remove From All Marketing</label>
+            </value>
+            <value>
+                <fullName>Book Value Certificate</fullName>
+                <default>false</default>
+                <label>Book Value Certificate</label>
+            </value>
+            <value>
+                <fullName>Added to ROI</fullName>
+                <default>false</default>
+                <label>Added to ROI</label>
+            </value>
+            <value>
+                <fullName>Removed From ROI</fullName>
+                <default>false</default>
+                <label>Removed From ROI</label>
+            </value>
+            <value>
+                <fullName>Service Packet Letter</fullName>
+                <default>false</default>
+                <label>Service Packet Letter</label>
+            </value>
+            <value>
+                <fullName>Mileage Update</fullName>
+                <default>false</default>
+                <label>Mileage Update</label>
+            </value>
+            <value>
+                <fullName>Incoming Phone Call</fullName>
+                <default>false</default>
+                <label>Incoming Phone Call</label>
+            </value>
+            <value>
+                <fullName>No Longer Owns Vehicle</fullName>
+                <default>false</default>
+                <label>No Longer Owns Vehicle</label>
+            </value>
+            <value>
+                <fullName>BDC Sales Appointment</fullName>
+                <default>false</default>
+                <label>BDC Sales Appointment</label>
+            </value>
+            <value>
+                <fullName>Approved Soft Credit Pull</fullName>
+                <default>false</default>
+                <label>Approved Soft Credit Pull</label>
+            </value>
+            <value>
+                <fullName>SMS Conversation</fullName>
+                <default>false</default>
+                <label>SMS Conversation</label>
+            </value>
+            <value>
+                <fullName>SMS Opt In</fullName>
+                <default>false</default>
+                <label>SMS Opt In</label>
+            </value>
+            <value>
+                <fullName>SMS Opt Out</fullName>
+                <default>false</default>
+                <label>SMS Opt Out</label>
+            </value>
+            <value>
+                <fullName>Dashboard Lead</fullName>
+                <default>false</default>
+                <label>Dashboard Lead</label>
+            </value>
+            <value>
+                <fullName>SMS Opt In Request</fullName>
+                <default>false</default>
+                <label>SMS Opt In Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

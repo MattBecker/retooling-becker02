@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Marketing_Vehicle_Rules</fullName>
+    <fields>Dealer__c</fields>
+    <fields>Make_Name__c</fields>
+    <fields>Model__c</fields>
+    <fields>Scope__c</fields>
+    <fields>Is_Include__c</fields>
+    <label>Dealer Marketing Vehicle Rules</label>
+</CompactLayout>

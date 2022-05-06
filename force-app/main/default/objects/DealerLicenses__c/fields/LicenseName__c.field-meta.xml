@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LicenseName__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Name of license - could be primary or add-on (e.g. Direct Mail)</inlineHelpText>
+    <label>License Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MarketActivator</fullName>
+                <default>false</default>
+                <label>MarketActivator</label>
+            </value>
+            <value>
+                <fullName>Auto Revenue</fullName>
+                <default>false</default>
+                <label>Auto Revenue</label>
+            </value>
+            <value>
+                <fullName>ServiceActivator</fullName>
+                <default>false</default>
+                <label>ServiceActivator</label>
+            </value>
+            <value>
+                <fullName>DealActivator</fullName>
+                <default>false</default>
+                <label>DealActivator</label>
+            </value>
+            <value>
+                <fullName>BDC Activator</fullName>
+                <default>false</default>
+                <label>BDC Activator</label>
+            </value>
+            <value>
+                <fullName>FCA OEM</fullName>
+                <default>false</default>
+                <label>FCA OEM</label>
+            </value>
+            <value>
+                <fullName>FCA MarketActivator</fullName>
+                <default>false</default>
+                <label>FCA MarketActivator</label>
+            </value>
+            <value>
+                <fullName>FCA ServiceActivator</fullName>
+                <default>false</default>
+                <label>FCA ServiceActivator</label>
+            </value>
+            <value>
+                <fullName>MVP Activator</fullName>
+                <default>false</default>
+                <label>MVP Activator</label>
+            </value>
+            <value>
+                <fullName>Wholesale Activator</fullName>
+                <default>false</default>
+                <label>Wholesale Activator</label>
+            </value>
+            <value>
+                <fullName>Recall Activator</fullName>
+                <default>false</default>
+                <label>Recall Activator</label>
+            </value>
+            <value>
+                <fullName>Social Add-On</fullName>
+                <default>false</default>
+                <label>Social Add-On</label>
+            </value>
+            <value>
+                <fullName>Direct Mail Activator</fullName>
+                <default>false</default>
+                <label>Direct Mail Activator</label>
+            </value>
+            <value>
+                <fullName>Proofing Passthrough</fullName>
+                <default>false</default>
+                <label>Proofing Passthrough</label>
+            </value>
+            <value>
+                <fullName>Conquest Direct Mail</fullName>
+                <default>false</default>
+                <label>Conquest Direct Mail</label>
+            </value>
+            <value>
+                <fullName>SalesActivator</fullName>
+                <default>false</default>
+                <label>SalesActivator</label>
+            </value>
+            <value>
+                <fullName>Test Account</fullName>
+                <default>false</default>
+                <label>Test Account</label>
+            </value>
+            <value>
+                <fullName>Service Conquest Funnel</fullName>
+                <default>false</default>
+                <label>Service Conquest Funnel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

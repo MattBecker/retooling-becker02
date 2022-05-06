@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointment_Reminder</fullName>
+    <active>true</active>
+    <label>Service Appointment Reminder</label>
+    <picklistValues>
+        <picklist>Email_Name__c</picklist>
+        <values>
+            <fullName>Birthday Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost Soul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed Service Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Appointment Reminder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Reimbursement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

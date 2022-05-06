@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Brands_Hours</fullName>
+    <fields>Dealer__c</fields>
+    <fields>Dealer_Brand__c</fields>
+    <fields>DayNumber__c</fields>
+    <fields>OpenFrom__c</fields>
+    <fields>OpenTo__c</fields>
+    <label>Dealer Brands Hours</label>
+</CompactLayout>

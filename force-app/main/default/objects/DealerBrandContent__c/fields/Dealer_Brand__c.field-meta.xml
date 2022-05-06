@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_Brand__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Dealer and Brand record this record is associated with</inlineHelpText>
+    <label>Dealer Brand</label>
+    <referenceTo>DealerBrands__c</referenceTo>
+    <relationshipLabel>Dealer Brand Email Content</relationshipLabel>
+    <relationshipName>Dealer_Brand_Content</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
