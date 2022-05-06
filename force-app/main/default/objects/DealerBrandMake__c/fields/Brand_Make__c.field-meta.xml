@@ -5,7 +5,16 @@
     <description>Lookup to the Brand Make object to get the brand Id</description>
     <externalId>false</externalId>
     <inlineHelpText>Brand related to the make</inlineHelpText>
-    <label>Brand</label>
+    <label>Brand Make</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Make__c</field>
+            <operation>equals</operation>
+            <valueField>BrandMakes__c.Make__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <referenceTo>BrandMakes__c</referenceTo>
     <relationshipLabel>Dealer Brand Makes</relationshipLabel>
     <relationshipName>Dealer_Brand_Makes</relationshipName>

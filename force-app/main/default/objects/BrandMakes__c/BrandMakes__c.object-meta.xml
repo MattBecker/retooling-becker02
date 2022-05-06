@@ -168,6 +168,8 @@
     </nameField>
     <pluralLabel>Brand Makes</pluralLabel>
     <searchLayouts>
+        <searchResultsAdditionalFields>Brand_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Make_Name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Brand__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Make__c</searchResultsAdditionalFields>
     </searchLayouts>

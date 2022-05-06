@@ -8,7 +8,7 @@
     <referenceTo>Brands__c</referenceTo>
     <relationshipLabel>Dealer Brand Makes</relationshipLabel>
     <relationshipName>Dealer_Brand_Makes</relationshipName>
-    <required>true</required>
+    <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
