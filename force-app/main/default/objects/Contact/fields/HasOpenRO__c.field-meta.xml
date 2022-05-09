@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasOpenRO__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this person has an upcoming service appointment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this person has an upcoming service appointment</inlineHelpText>
+    <label>Has Open RO</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
