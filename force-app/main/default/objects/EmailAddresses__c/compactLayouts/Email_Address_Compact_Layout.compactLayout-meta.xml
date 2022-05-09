@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Address_Compact_Layout</fullName>
+    <fields>Person__c</fields>
+    <fields>Dealer__c</fields>
+    <fields>EmailAddress__c</fields>
+    <fields>IsDefault__c</fields>
+    <fields>OptOutFlag__c</fields>
+    <fields>EmailStatus__c</fields>
+    <label>Email Address Compact Layout</label>
+</CompactLayout>
